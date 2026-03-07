@@ -10,4 +10,4 @@ RUN npm install --omit=dev
 
 VOLUME /opt/TediCross/data/
 
-CMD sh -c "node keepalive.js & node dist/main.js -c data/settings.yaml"
+CMD ["sh", "-c", "node keepalive.js & node dist/main.js -c data/settings.yaml"]
