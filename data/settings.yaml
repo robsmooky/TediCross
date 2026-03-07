@@ -4,8 +4,7 @@ discord:
   maxReplyLines: 10
 
 telegram:
-  token:
-    env: TELEGRAM_TOKEN
+  token: ${TELEGRAM_TOKEN}
 
 bridges:
   - name: sheikav_bridge
