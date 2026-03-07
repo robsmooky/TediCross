@@ -12,6 +12,7 @@ bridges:
       channelId: "929005444737925182"
       relayJoinMessages: false
       relayLeaveMessages: false
+      sendUsernames: true
 
     telegram:
       chatId: -1003760180923
