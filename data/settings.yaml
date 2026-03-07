@@ -1,10 +1,10 @@
 discord:
-  token: "MTQ3OTI0MzI4MjMyNzUzNTc5OA.GXDpwW.LtW6kiix4ojbhaOl8-AJvTlSpkkQIr4hOb7UXg"
+  token: ${DISCORD_TOKEN}
   replyLength: 120
   maxReplyLines: 10
 
 telegram:
-  token: "8625507847:AAGH5HWma8SRmGsKxPOUQPVPfz0Qm0v5WFw"
+  token: ${TELEGRAM_TOKEN}
 
 bridges:
   - name: sheikav_bridge
