@@ -1,6 +1,7 @@
 discord:
   token: "${DISCORD_TOKEN}"
   replyLength: 120
+  maxReplyLines: 10
 
 telegram:
   token: "${TELEGRAM_TOKEN}"
