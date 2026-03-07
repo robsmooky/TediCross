@@ -7,8 +7,11 @@ telegram:
 bridges:
   - name: sheikav_bridge
     direction: both
+
     discord:
       channelId: "929005444737925182"
+
     telegram:
       chatId: -1003760180923
       topicId: 17
+      relayJoinMessages: false
