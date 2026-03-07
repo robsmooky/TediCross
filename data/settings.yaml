@@ -19,7 +19,6 @@ bridges:
 
     telegram:
       chatId: -1003760180923
-      messageThreadId: 17
       relayJoinMessages: false
       relayLeaveMessages: false
       sendUsernames: true
