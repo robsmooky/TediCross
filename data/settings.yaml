@@ -15,3 +15,4 @@ bridges:
       chatId: -1003760180923
       topicId: 17
       relayJoinMessages: false
+      relayLeaveMessages: false
