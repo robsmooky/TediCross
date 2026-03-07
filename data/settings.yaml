@@ -1,10 +1,12 @@
 discord:
-  token: ${DISCORD_TOKEN}
+  token:
+    env: DISCORD_TOKEN
   replyLength: 120
   maxReplyLines: 10
 
 telegram:
-  token: ${TELEGRAM_TOKEN}
+  token:
+    env: TELEGRAM_TOKEN
 
 bridges:
   - name: sheikav_bridge
