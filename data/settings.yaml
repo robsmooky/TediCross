@@ -4,7 +4,7 @@ discord:
   maxReplyLines: 10
 
 telegram:
-  token: 8625507847:AAGH5HWma8SRmGsKxPOUQPVPfz0Qm0v5WFw
+  token: "8625507847:AAGH5HWma8SRmGsKxPOUQPVPfz0Qm0v5WFw"
 
 bridges:
   - name: sheikav_bridge
