@@ -1,5 +1,5 @@
 discord:
-  token: ${DISCORD_TOKEN}
+  token: "MTQ3OTI0MzI4MjMyNzUzNTc5OA.GXDpwW.LtW6kiix4ojbhaOl8-AJvTlSpkkQIr4hOb7UXg"
   replyLength: 120
   maxReplyLines: 10
 
