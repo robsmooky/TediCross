@@ -8,6 +8,8 @@ COPY . .
 
 RUN npm install --omit=dev
 
+RUN chmod +x start.sh
+
 VOLUME /opt/TediCross/data/
 
-CMD ["sh", "-c", "node keepalive.js & node dist/main.js -c data/settings.yaml"]
+CMD ["./start.sh"]
