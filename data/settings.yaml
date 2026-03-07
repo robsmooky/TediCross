@@ -16,3 +16,4 @@ bridges:
       topicId: 17
       relayJoinMessages: false
       relayLeaveMessages: false
+      sendUsernames: true
