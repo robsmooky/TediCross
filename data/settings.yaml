@@ -1,27 +1,42 @@
-discord:
-  token: ${DISCORD_TOKEN}
-  replyLength: 120
-  maxReplyLines: 10
-
 telegram:
   token: "8625507847:AAGH5HWma8SRmGsKxPOUQPVPfz0Qm0v5WFw"
-
+  useFirstNameInsteadOfUsername: false
+  colonAfterSenderName: false
+  skipOldMessages: true
+  sendEmojiWithStickers: true
+  useCustomEmojiFilter: false
+  replaceAtWithHash: false
+  replaceExcessiveSpaces: false
+  removeNewlineSpaces: false
+  suppressFileTooBigMessages: false
+  suppressThisIsPrivateBotMessage: false
+discord:
+  useNickname: false
+  token: ${DISCORD_TOKEN}
+  skipOldMessages: true
+  replyLength: 100
+  maxReplyLines: 2
+  suppressThisIsPrivateBotMessage: false
+  enableCustomStatus: false
+  customStatusMessage: "TediCross"
 bridges:
-  - name: sheikav_bridge
+  - name: First bridge
     direction: both
-
-    discord:
-      channelId: "929005444737925182"
-      relayJoinMessages: false
-      relayLeaveMessages: false
-      sendUsernames: true
-      crossDeleteOnTelegram: true
-
     telegram:
       chatId: -1003760180923
-      relayJoinMessages: false
-      relayLeaveMessages: false
+      relayJoinMessages: true
+      relayLeaveMessages: true
       sendUsernames: true
       crossDeleteOnDiscord: true
-      
-debug: true
+    discord:
+      channelId: '929005444737925182'
+      relayJoinMessages: true
+      relayLeaveMessages: true
+      sendUsernames: true
+      crossDeleteOnTelegram: true
+      disableWebPreviewOnTelegram: false
+      useEmbeds: 'auto'
+debug: false
+messageTimeoutAmount: 24
+messageTimeoutUnit: 'hours'
+persistentMessageMap: false
