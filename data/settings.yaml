@@ -23,3 +23,5 @@ bridges:
       relayLeaveMessages: false
       sendUsernames: true
       crossDeleteOnDiscord: true
+      
+debug: true
